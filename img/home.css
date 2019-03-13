@@ -1,0 +1,482 @@
+/* 所有模块的标题共用样式 */
+.all-title{
+    font-size: 28px;
+    text-align: center;
+    position: relative;
+    height: 100px;
+    color: #333333;
+}
+.all-title div{
+    width: 50px;
+    border: 1px solid #1f84cb;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    margin-left: -25px;
+}
+.click-btn{
+    cursor: pointer;
+}
+/*  全连接弹出二维码的样式  */
+.quanlian-tan{
+    background: white;
+    position: absolute;
+    z-index: 100000000;
+    left: 50%;
+    top: 50%;
+    width: 405px;
+    height: 455px;
+    margin-top: -200px;
+    margin-left: -200px;
+    text-align: center;
+    display: none;
+    border: 1px solid #1f84cb;
+    box-shadow: 3px 3px 18px #1f84cb;
+    font-size: 16px;
+}
+.quanlian-tan p{
+    margin-top: 30px;
+    text-align: center;
+}
+.quanlian-tan span{
+    float: right;
+    margin: 10px;
+    cursor: pointer;
+}
+/*  顶部导航  */
+#top-fixed{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    z-index: 100000;
+    background: white;
+}
+/*   banner*/
+.header{
+    position: relative;
+}
+#box {
+    position:relative;
+    width:100%;
+    max-width: 1920px;
+    min-width: 1200px;
+    height: 45vw;
+    min-height: 540px;
+    max-height: 860px;
+    overflow: hidden;
+    margin:85px auto 0;
+}
+#box .imgList{
+    position:relative;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+#box .imgList li{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+#box .countNum{
+    position:absolute;
+    left:50%;
+    margin-left: -500px;
+    bottom:75px;
+    display: none;
+}
+
+.box-nav{
+    width:1000px;
+    height:10px;
+    position:absolute;
+    bottom:60px;
+    left:50%;
+    margin-left:-500px;
+    z-index: 5000;
+}
+.box-nav ul li{
+    width:70px;
+    height:4px;
+    float:left;
+    margin-left:18px;
+    list-style-type: none;
+    background:#999999;
+    border-radius: 2px;
+}
+.box-nav ul li p{
+    width:0;
+    height:100%;
+    background:lightyellow;
+    float:left;
+    border-radius: 2px;
+}
+/*#box .countNum li{*/
+    /*width:20px;*/
+    /*height:20px;*/
+    /*float:left;*/
+    /*color: white;*/
+    /*border-radius:20px;*/
+    /*background:white;*/
+    /*text-align:center;*/
+    /*margin-right:15px;*/
+    /*cursor:pointer;*/
+    /*opacity:0.7;*/
+    /*border: 1px solid #14d37c;*/
+    /*filter:alpha(opacity=70);*/
+/*}*/
+/*#box .countNum li.current{*/
+    /*width: 40px;*/
+    /*background:#14d37e;*/
+    /*color: #14d37e;*/
+    /*font-weight:bold;*/
+    /*opacity:1;*/
+/*}*/
+
+      /*   服务场景模块样式    */
+#serve-scene{
+    padding: 76px 0;
+    width: 100%;
+    min-width: 1200px;
+    overflow: hidden;
+    background: #f3f3f3;
+}
+#serve-scene .this-con{
+    width: 1201px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#serve-scene .this-con .this-con-list{
+    float: left;
+    position: relative;
+    width: 387px;
+    height: 240px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#serve-scene .this-con .this-con-list:nth-child(3n-1){
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#serve-scene .this-con .big-back-img{
+    width: 100%;
+    height: 100%;
+}
+#serve-scene .this-con .small-icon{
+    position: absolute;
+    z-index: 100;
+    left: 50px;
+    top:76px;
+}
+#serve-scene .this-con .small-title{
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    z-index: 100;
+    right: 50px;
+    top: 76px;
+}
+#serve-scene .hover-mb{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 80;
+    top: -100%;
+    background: rgba(20, 210, 125, 0.7);
+    transition: 0.4s;
+}
+#serve-scene .hover-mb p{
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 80px;
+    font-size: 18px;
+}
+#serve-scene .hover-mb .to-see-btn{
+    padding: 10px 20px;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 36px;
+    color: white;
+    border: 1px white solid;
+    position: relative;
+    left: 240px;
+    top: 130px;
+}
+#serve-scene .this-con .this-con-list:hover .small-title{
+    display: none;
+}
+#serve-scene .this-con .this-con-list:hover .hover-mb{
+    top: 0;
+}
+/*     定制服务模块    */
+#order-made{
+    padding: 76px 0;
+    width: 100%;
+    min-width: 1200px;
+    overflow: hidden;
+}
+#order-made .order-made-con{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+/*   经典案例 */
+#classical-case{
+    width: 100%;
+    padding: 76px 0;
+    min-width: 1200px;
+    background: #f3f3f3;
+    color: whitesmoke;
+}
+/*#classical-case .title-text{*/
+/*color: black;*/
+/*}*/
+#classical-case .classical-case-con{
+    width: 1200px;
+    height: 428px;
+    margin: 0 auto;
+}
+#classical-case .classical-case-list{
+    float: left;
+    width: 300px;
+    height: 428px;
+    overflow: hidden;
+    position: relative;
+    transition: 0.3s;
+}
+#classical-case .classical-case-list:hover{
+    transform: scale(1.1,1.1);
+    z-index: 1000;
+    /*border: 1px solid #1f84cb;*/
+    box-shadow : 1px 1px 12px  #1f84cb;
+}
+#classical-case .classical-case-list img{
+    width: 100%;
+    height: 100%;
+}
+#classical-case .classical-case-list .list-bot{
+    width: 100%;
+    height: 114px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#classical-case .classical-case-list:hover .list-bot{
+    background: #1f84cb;
+}
+#classical-case .list-bot-title{
+    font-size: 22px;
+    color: #ffffff;
+    padding-left: 4%;
+    margin-top: 30px;
+}
+#classical-case .hx{
+    margin-left: 4%;
+    margin-top: 22px;
+    width: 50px;
+    border-bottom: 2px solid white;
+}
+#classical-case .classical-case-list:hover .hx{
+    display: none;
+}
+#classical-case .to-see-det{
+    padding: 11px 21px;
+    border-radius: 20px;
+    color: whitesmoke;
+    background: #1f84cb;
+    position: absolute;
+    left: 30%;
+    top: 45%;
+    display: none;
+}
+#classical-case .classical-case-list:hover .to-see-det{
+    display: block;
+}
+#classical-case .list-bot-text{
+     display: none;
+    font-size: 16px;
+    color: whitesmoke;
+    margin-left: 4%;
+    margin-top: 20px;
+}
+#classical-case .classical-case-list:hover .list-bot-text{
+    display: block;
+}
+/*             全联接               */
+#quanlian-title{
+    text-align: center;
+    font-size: 20px;
+    margin: -20px 0 20px;
+}
+#all-contact{
+    position: relative;
+    width: 100%;
+    min-width: 1200px;
+    overflow: hidden;
+    padding: 76px 0;
+    background: url("../images/home/quanlianjie  diwen.png") center no-repeat;
+}
+#all-contact .all-contact-con{
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+#all-contact .all-contact-con .center-back{
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    top: 50%;
+    margin-left: -135px;
+    margin-top: -135px;
+}
+#all-contact .all-contact-con>div{
+    width: 430px;
+    height: 170px;
+    border: dashed 1px #b2b2b2;
+    border-radius: 8px;
+    background: white;
+}
+#all-contact .all-contact-con>div:nth-child(2){
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#all-contact .all-contact-con>div:nth-child(3){
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+#all-contact .all-contact-con>div:nth-child(4){
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+#all-contact .all-contact-con>div .left-icon{
+    width: 114px;
+    height: 78px;
+    margin: 28px;
+    float: left;
+    transition: 0.5s;
+}
+#all-contact .on-hover .left-icon{
+    transform: scale(1.1,1.1);
+}
+#all-contact .all-contact-con>div .right-text{
+    width: 200px;
+    margin: 30px;
+    float: right;
+    position: relative;
+}
+#all-contact .all-contact-con>div .right-text .title{
+    color: black;
+    font-size: 18px;
+}
+#all-contact .all-contact-con>div .right-text .text{
+    margin-top: 18px;
+    color: #666666;
+    font-size: 14px;
+}
+#all-contact .all-contact-con>div .right-text .click-btn{
+    position: absolute;
+    right: 0;
+    top: 80px;
+    background:#15d27e ;
+    font-size: 14px;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    border-radius: 4px;
+    color: white;
+}
+#all-contact .all-contact-con>div .right-text .click-btn:hover{
+    opacity: 0.7;
+}
+/* partner  合作伙伴，客户*/
+#partner{
+    width: 100%;
+    overflow: hidden;
+    min-width: 1200px;
+    background: url("../images/home/kehu  diwen.png") no-repeat;
+    background-size: 100% 100%;
+    background-origin: border-box;
+    padding: 76px 0;
+}
+#partner .partner{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#partner .partner>div{
+    width: 579px;
+    float: left;
+    overflow: hidden;
+    padding: 0 10px;
+}
+#partner .partner .partner-safe{
+    border-right: 1px solid #b2b2b2;
+    height: 728px;
+}
+#partner .partner .partner-safe p{
+    display: inline-block;
+    float: right;
+    padding: 5px 12px;
+    background: white;
+    color: #1f84cb;
+}
+#partner .partner .partner-hz p{
+    display: inline-block;
+    float: left;
+    padding: 5px 12px;
+    background: white;
+    color: #1f84cb;
+}
+#partner .partner-lists{
+    overflow: hidden;
+    margin-top: 50px;
+}
+#partner .partner-safe .partner-lists>div{
+    float: right;
+    width: 148px;
+    /*height: 74px;*/
+    margin: 10px;
+
+}
+#partner .partner-safe .partner-lists>div>div{
+    width: 148px;
+    height: 74px;
+    margin-bottom: 20px;
+    animation: animation-1 1.5s ;
+    display: none;
+}
+#partner .partner-hz .partner-lists>div{
+    float: left;
+    width: 148px;
+    /*height: 74px;*/
+    margin: 10px;
+}
+#partner .partner-hz .partner-lists>div>div{
+    width: 148px;
+    height: 74px;
+    margin-bottom: 20px;
+    animation: animation-1 3s ;
+    display: none;
+}
+@keyframes animation-1
+{
+    from {
+        margin-top: -120px;
+        opacity: 0;
+    }
+    to {
+        margin-top: 0;
+        opacity: 1;
+    }
+}
